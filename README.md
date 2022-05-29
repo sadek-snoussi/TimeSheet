@@ -38,17 +38,6 @@ Java web application
   - bootstrap-datepicker plugin
 - *home page summary
 
-### Demo mode
-To run without mysql config, use h2 embedded database for simpel demo.
-DataSource is configured with profile "demo". Disable it in config.WebInitializer:
-```java
-servletContext.setInitParameter("spring.profiles.active", "demo");
-```
-Accounts:
-manager:manager
-emp1:emp1
-emp2:emp2
-
 ### Frameworks & Tools
 Front end
 - HTML5 Thmeleaf
